@@ -12,7 +12,7 @@ sign up
 login
    </div>
    <div class="search-btn font-semibold text-xl text-center p-1">
-    search now
+
        </div>
    </div>
 

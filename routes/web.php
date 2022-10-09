@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SectionController;
 use App\Http\Controllers\StudentsController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 */
 route::get('/',[StudentsController::class,'show'])->name('home');
 route::get('/student/{id}',[StudentsController::class,'student'])->name('student');
+route::get('/sections/{section}',[SectionController::class,'show'])->name('student.section');

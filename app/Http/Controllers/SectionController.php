@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Section;
 use App\Http\Requests\StoreSectionRequest;
 use App\Http\Requests\UpdateSectionRequest;
+use App\Models\Students;
 
 class SectionController extends Controller
 {
@@ -45,9 +46,13 @@ class SectionController extends Controller
      * @param  \App\Models\Section  $section
      * @return \Illuminate\Http\Response
      */
-    public function show(Section $section)
+    public function show(Students $section)
     {
-        //
+        return  view('sections',
+        [
+            'sections'=>$section->section->student
+        ]
+    );
     }
 
     /**
