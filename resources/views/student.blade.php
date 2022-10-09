@@ -16,7 +16,7 @@
           <div class="mt-8">
             <p class="mt-2 mb-4 ml-4 "><span class="font-bold text-xl  ">  Full Name:</span> <span class="text-gray-600 leading-5 font-semibold ml-14"> {{$student->Full_Name}}</span></p>
             <p class="mt-2 mb-4 ml-4"><span class="font-bold text-xl  ">  Index Number:</span><span class="text-gray-600 leading-5 font-semibold ml-4"> {{$student->index_number}}</span></p>
-            <p class="mt-2 mb-4 ml-4"><span class="font-bold text-xl  ">  Section:</span><span class="text-gray-600 leading-5 font-semibold ml-20"> science </span></p>
+            <p class="mt-2 mb-4 ml-4"><span class="font-bold text-xl  ">  Section:</span><span class="text-gray-600 leading-5 font-semibold ml-20"> {{$student->section->name}} </span></p>
             <p class="mt-2 mb-4 ml-4"><span class="font-bold text-xl  ">  GPE:</span><span class="text-gray-600 leading-5 font-semibold ml-28"> {{$student->Full_Marks}}% </span></p>
             <p class="mt-2 mb-4 ml-4"><span class="font-bold text-xl  ">  Remarks:</span><span class="text-gray-600 leading-5 font-semibold ml-20"> Exellent</span></p>
           </div>

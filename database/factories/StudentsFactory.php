@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Section;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -18,6 +19,7 @@ class StudentsFactory extends Factory
     {
         return [
             'Full_Name' => $this->faker->name(),
+            'section_id'=>Section::factory(),
             'Full_Marks' => $this->faker->numerify('###'),
             'Index_Number'=>$this->faker->numerify("#####"),
 

@@ -18,9 +18,8 @@ class SectionFactory extends Factory
     public function definition()
     {
         return [
-            'student_id' => Students::factory(),
-            'Full_Marks' => $this->faker->numerify('###'),
-            'Index_Number'=>$this->faker->numerify("#####"),
+            'name' => $this->faker->name(),
+
         ];
     }
 }

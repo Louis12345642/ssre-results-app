@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('students', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('section_id');
             $table->string('Full_Name');
             $table->decimal('index_number')->unique();
             $table->decimal('Full_Marks');
