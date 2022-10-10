@@ -24,10 +24,10 @@
           section
             </button>
             <div class="  hidden bg-white  text-base z-50 float-left py-2 list-none text-left rounded shadow-lg mb-1" id="dropdown-id">
-              <a href="#pablo" class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700">
+              <a href="sections/1" class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700">
              Science Section
               </a>
-              <a href="#pablo" class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700">
+              <a href="sections/2" class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700">
              Arts section
               </a>
 

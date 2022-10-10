@@ -1,6 +1,6 @@
 <x-layout>
-<x-page-header/>
-<x-hero-section/>
+<x-page-header />
+<x-hero-section />
 @foreach ($students as $student )
 
 @if ($students->count() < 1)
