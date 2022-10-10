@@ -46,11 +46,11 @@ class SectionController extends Controller
      * @param  \App\Models\Section  $section
      * @return \Illuminate\Http\Response
      */
-    public function show(Students $section)
+    public function show(Section $section)
     {
         return  view('sections',
         [
-            'sections'=>$section->section->student
+            'students'=>$section->student
         ]
     );
     }
